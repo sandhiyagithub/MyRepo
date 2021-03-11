@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
+	
+	//add to commit
 	@RequestMapping(value = "/getInfo", method = RequestMethod.GET)  
 	public List<String> getAllBooks()   
 	{  
